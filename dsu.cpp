@@ -7,7 +7,8 @@ struct dsu{
 		sz.resize(n+2);
 		for(int i=0;i<=n;i++)
 		{
-			par[i]=i,sz[i]=1;
+			par[i]=i;
+			sz[i]=1;
 		}
 	}
 	int find(int x)
